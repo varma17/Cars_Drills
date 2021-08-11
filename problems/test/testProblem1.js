@@ -1,5 +1,5 @@
 import { problem1 } from '../problem1.js';
-import { inventory } from '../inventory.js';
+import { inventory } from '../../inventory.js';
 
 var carData = {};
 
