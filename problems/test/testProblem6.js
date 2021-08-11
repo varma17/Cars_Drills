@@ -7,6 +7,8 @@ import { inventory } from '../../inventory.js';
 var BMWAndAudi = [];
 
 BMWAndAudi = problem6(inventory);
-
-console.log(JSON.stringify(BMWAndAudi));
-
+if(BMWAndAudi == []){
+  console.log([])
+}else{
+  console.log(JSON.stringify(BMWAndAudi));
+}
