@@ -6,8 +6,8 @@ function problem3(inventory){
         return inventory;
     }
     else{
-        for(let i =0; i < inventory.length; i++){
-        
+        for(let i =0; i < inventory.length; i++)
+        {
             for(let j = 0; j < inventory.length-i-1; j++){
                 if(inventory[j].car_model.toLowerCase() > inventory[j + 1].car_model.toLowerCase()){
                   var temp = inventory[j]
