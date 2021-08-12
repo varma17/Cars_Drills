@@ -11,6 +11,6 @@ if(carData == 0)
 {
     console.log([]);
 }else{
-    console.log("Car 33 is a "+ carData.car_year+" "+carData.car_make+" "+carData.car_model);
+    console.log("Last car is a "+carData.car_make+" "+carData.car_model);
 }
 
